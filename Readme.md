@@ -69,6 +69,7 @@ folder “contiki/examples/rime”
 
 Expected output  (similar to below)
 
+```
 ID:1	Rime started with address 1.0
 ID:1	MAC 01:00:00:00:00:00:00:00 Contiki-3.x-2412-gc1b5323 started. 
         Node id is set to 1.
@@ -90,7 +91,7 @@ ID:2	*** Received 'b' slots counted between consecutive receptions = 2000
 ID:2	*** Received 'c' slots counted between consecutive receptions = 2000
 ID:2	*** Received 'd' slots counted between consecutive receptions = 2000
 ID:2	*** Received 'e' slots counted between consecutive receptions = 2000
-
+```
 
 ###Note :
 
@@ -135,7 +136,7 @@ the name of the driver code has to be cc2420.c otherwise it will not work).
 
 
 Expected output  (similar to below)
-
+```
 ID:1	Rime started with address 1.0
 ID:1	MAC 01:00:00:00:00:00:00:00 Contiki-3.x-2412-gc1b5323 started. Node id is set to 1.
 ID:1	CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
@@ -156,7 +157,7 @@ ID:2	*** Received, slots counted between consecutive receptions = 2000
 ID:2	*** Received, slots counted between consecutive receptions = 2000
 ID:2	*** Received, slots counted between consecutive receptions = 2000
 ID:2	*** Received, slots counted between consecutive receptions = 2000
-
+```
 ###Note :
 
 Make sure that both the motes have different Node id values. 
