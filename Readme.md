@@ -1,5 +1,5 @@
 
-**Timer Synchronization Test for running 6TiSCH**
+**#Timer Synchronization Test for running 6TiSCH**
 
 #Overview
 
