@@ -1,7 +1,7 @@
 
 #Timer Synchronization Test for running 6TiSCH
 
-#Overview
+##Overview
 
 Time slotted channel hopping (TSCH) is a combination of two efficient methods
 namely time synchronisation and channel hopping attempted at creating a low
@@ -30,7 +30,7 @@ of slots between two consecutive packet receptions as 2000, we can say that the
 rtimer of both motes are in sync.
 
 
-#Prerequisites
+##Prerequisites
 
 Before starting the test procedure, it is important to identify a reference
 mote. A reference mote is one which could be kept as a standard against which
