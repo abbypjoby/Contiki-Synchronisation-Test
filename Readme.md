@@ -1,3 +1,6 @@
+
+**Timer Synchronization Test for running 6TiSCH**
+
 #Overview
 
 Time slotted channel hopping (TSCH) is a combination of two efficient methods
