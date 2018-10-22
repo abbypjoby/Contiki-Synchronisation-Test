@@ -1,7 +1,7 @@
 
-#Timer Synchronization Test for running 6TiSCH
+# Timer Synchronization Test for running 6TiSCH
 
-##Overview
+## Overview
 
 Time slotted channel hopping (TSCH) is a combination of two efficient methods
 namely time synchronisation and channel hopping attempted at creating a low
@@ -30,7 +30,7 @@ of slots between two consecutive packet receptions as 2000, we can say that the
 rtimer of both motes are in sync.
 
 
-##Prerequisites
+## Prerequisites
 
 Before starting the test procedure, it is important to identify a reference
 mote. A reference mote is one which could be kept as a standard against which
@@ -53,7 +53,7 @@ chosen.
 
 Method to verify stability of rtimer across motes (performed on similar motes)
 
-###Steps : 
+### Steps : 
 Ensure that both the programs (broadcaster.c and std_receiver.c) are in the
 folder “contiki/examples/rime”
 
@@ -96,7 +96,7 @@ ID:2	*** Received 'd' slots counted between consecutive receptions = 2000
 ID:2	*** Received 'e' slots counted between consecutive receptions = 2000
 ```
 
-###Note :
+### Note :
 
 Make sure that both the motes have different Node id values. 
 If the received slot count is between 1999 - 2001 (not exactly 2000), It may
@@ -108,13 +108,13 @@ Reference motes could be used as a standard to test the compatability of the
 target mote in a heterogenous TSCH network.
 
 
-#TSCH_sync_test2
+# TSCH_sync_test2
 
 Method to verify stability of the target motes rtimer against that of a standard reference mote (performed on different motes)
 
 
 
-###Steps : 
+### Steps : 
 
 Ensure that both the programs (broadcaster.c and std_receiver.c) are in the
 folder “contiki/examples/rime” also replace the driver code ie 'cc2420.c' found
@@ -161,7 +161,7 @@ ID:2	*** Received, slots counted between consecutive receptions = 2000
 ID:2	*** Received, slots counted between consecutive receptions = 2000
 ID:2	*** Received, slots counted between consecutive receptions = 2000
 ```
-###Note :
+### Note :
 
 Make sure that both the motes have different Node id values. 
 
